@@ -4,7 +4,7 @@ setTimeout(function () {
 	console.log("Macrotask 1");
 },0);
 
-promise.resolve().then(function(){
+Promise.resolve().then(function(){
 	console.log("Microtask 2");
 });
 console.log("end");
