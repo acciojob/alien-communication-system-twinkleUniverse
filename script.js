@@ -1,6 +1,6 @@
 console.log("start");
 
-setTimeOut(function () {
+setTimeout(function () {
 	console.log("Macrotask 1");
 },0);
 
